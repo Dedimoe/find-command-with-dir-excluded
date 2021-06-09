@@ -1,7 +1,7 @@
 # find-command-with-dir-excluded
 Unix/Linux/mac "find" command line with directories excluded
 
-find all .js files, exclude the files from this directory: node_modules, config and .vscode :
+find all .js files, exclude the files from these directories: node_modules, config and .vscode :
 ```
 find . -name "*.js" | egrep -v "node_modules|config|.vscode"
 ```
